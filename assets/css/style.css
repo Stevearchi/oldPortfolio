@@ -137,22 +137,26 @@ h2 {
 
 /* portfolio page */
 
+.portfolio {
+  text-align: center;
+}
+
 .work {
   position: relative;
   float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
+  width: 259px;
+  margin: 20px 20px 25px;
+  /* overflow: auto; */
 }
 
-.work:nth-child(even) {
+/* .work:nth-child(even) {
   margin-right: 40px;
-}
+} */
 
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .work h3 {
@@ -169,52 +173,14 @@ h2 {
   border-bottom: 0;
 }
 
+/* profile image */
+
 .auth-image {
   float: left;
   width: 200px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-}
-
-/* contact page */
-
-#contact-form ul {
-  margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  background: #4aaaa5;
-  border: 0 none;
 }
 
 @media only screen and (max-width: 980px) {
